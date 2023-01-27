@@ -1,0 +1,11 @@
+{
+    "post_id": 2,
+    "post_tag": "musicsurf",
+    "poster": "MusicSurf",
+    "image": "./images/musicsurf/Logo.png",
+    "time_posted": "Jan 17, 2023",
+    "studied": "CPSC 481 · Adobe XD, Adobe Illustrator",
+    "bullet_pts": [],
+    "images": ["./images/musicsurf/Now Playing.png","./images/musicsurf/Explore.png", "./images/musicsurf/Library.png"],
+    "paragraph": "The objective of this team project was to create a prototype following the User Experience Design Principle we learned in class and we thought of making an unique solution to find and listening to music. \n\nMusicSurf is a concept of a music player which allows the user to listen to music based on their moods. Songs are connected to each other like a network graph and categorized by moods. "
+}

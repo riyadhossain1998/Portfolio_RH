@@ -1,0 +1,17 @@
+{
+    "post_id": 7,
+    "post_tag": "fn",
+    "poster": "Feature Network",
+    "image": "./baby_cheems.png",
+    "time_posted": "Jan 25, 2023",
+    "studied": "In Progress · HTML, CSS, JavaScript, D3.js, Python",
+    "images": ["./baby_cheems.png"],
+    "bullet_pts": [
+        "Interactive Graph to explore more music from the user's favorite artist",
+        "Artist Profile Section",
+        "Artist's face as nodes",
+        "Preview for songs",
+        "Option to create personalized playlists"
+    ],
+    "paragraph": "This is a personal project where the objective is to create a network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on Python where the user can retrieve artist, song, album etc information from Spotify using the spotipy API. Then the data is organized into nodes and edges to create a large network, for which I used the D3.js to create a force directed graph. Features to implement in this project are as follows:"
+}

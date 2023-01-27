@@ -1,0 +1,56 @@
+.btsr-card {
+    width: 100%;
+}
+
+.card-text {
+    white-space: pre-line;
+}
+
+.card-hd {
+    background-color: #fff;
+    border: none;
+}
+
+.card-body {
+    margin-top: -1rem;
+}
+
+.poster {
+    font-weight: 500;
+}
+
+.timestamp {
+    margin-top: -10px;
+}
+
+.bottom-text {
+    display: block;
+    
+}
+
+.small-text {
+    font-size: 1rem;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 3rem;
+    height: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+}
+.carousel-item {
+    overflow: hidden;
+ }
+
+.bullet-pts {
+    text-align: left;
+}

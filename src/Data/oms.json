@@ -1,0 +1,11 @@
+{
+    "post_id": 6,
+    "post_tag": "oms",
+    "poster": "Order Management System",
+    "image": "./baby_cheems.png",
+    "time_posted": "Jan 25, 2023",
+    "studied": "In Progress · Figma",
+    "images": ["./baby_cheems.png"],
+    "bullet_pts": [],
+    "paragraph": "Figma Personal Project of a Order Management System based on the system I use at my workplawith the following new features to be addece.\n\n I analyzed the problems we face at work everyday and decided to create a better version with more information to help us create ease of access and provide a better customer experience to our customer."
+}
