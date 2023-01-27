@@ -23,7 +23,7 @@ function NavBar() {
                                 <a className="nav-link" href="#">Spotify Theme</a>
                             </div>
                             <div className="col-md-3">
-                            <a href="https://github.com/riyadhossain1998" title="github icons"><img class="icons" src={process.env.PUBLIC_URL + "./icons/github.png"}/></a>
+                            <a class="mr-4 "href="https://github.com/riyadhossain1998" title="github icons"><img class="icons" src={process.env.PUBLIC_URL + "./icons/github.png"}/></a>
                             <a href="https://linkedin.com/in/riyad-hossain-30773914b" title="linkedin icons"><img class="icons" src={process.env.PUBLIC_URL + "./icons/linkedin.png"}/></a>
 
                                     

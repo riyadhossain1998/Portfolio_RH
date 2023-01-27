@@ -1,11 +1,21 @@
 {
     "post_id": 5,
     "post_tag": "Art",
-    "poster": "Riyad's Digital Art",
+    "poster": "Digital Art Collection",
     "image": "./baby_cheems.png",
     "time_posted": "Jan 17, 2023",
     "studied": "Illustrator, Photoshop, ZBrush",
-    "images": ["./baby_cheems.png"],
+    "images": [
+        "./baby_cheems.png",
+        "./images/art/isometric.png",
+        "./images/art/poster.png",
+        "./images/art/plakatsil.png",
+        "./images/art/popart.png", 
+        "./images/art/perspective.png",
+        "./images/art/halftone.png" ,
+        "./images/art/constructivism.png", 
+        "./images/art/photorealism.png"
+    ],
     "bullet_pts": [],
-    "paragraph": ""
+    "paragraph": "Personal and School Projects. Will be adding more soon. "
 }
