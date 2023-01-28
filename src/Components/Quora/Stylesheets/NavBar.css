@@ -16,7 +16,9 @@
 }
 
 .navbar-light .navbar-brand {
+    font-family: 'Playfair Display', serif;
     color: #B92B27;
+    font-size: 2rem;
     
 }
 
@@ -34,7 +36,7 @@
     border-radius: 5px;
     background-color: #333;
     color: #fff;
-    font-size: 12px;
+    font-size: 11px;
     visibility: hidden;
   }
   
