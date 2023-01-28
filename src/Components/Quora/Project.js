@@ -15,7 +15,7 @@ function Project(props) {
 
     //  Bullet Points render
     bullet_points = json_data.bullet_pts.map((bullet,index) =>
-      <li class="bullet-pts" key={index}>{bullet}</li>)
+      <li className="bullet-pts" key={index}>{bullet}</li>)
     
     //  Carousel render
     if(json_data.images.length > 0) {

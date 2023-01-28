@@ -2,11 +2,12 @@ import SkillsFeed from './SkillsFeed'
 import Feed from './Feed'
 import Projects from './Projects'
 import RenderFeed from './Projects'
+import './Stylesheets/Body.css'
 
 function Body() {
     return(
         <div className="container-fluid">
-            <div className="row">
+            <div className="body-row row">
                 <div className="col-md-12">
                     <div className="row px-5">
                         <div className="col-md-3">

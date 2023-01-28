@@ -3,3 +3,42 @@
     width: 24px;
     
 }
+
+.nav-row {
+    background-color: rgb(255, 255, 255);
+}
+
+.nav-col {
+    background-color: rgb(255, 255, 255);
+
+
+
+}
+
+.navbar-light .navbar-brand {
+    color: #B92B27;
+    
+}
+
+.hover-css {
+    position: relative;
+  }
+  
+  .hover-css::before {
+    content: attr(data-content);
+    position: absolute;
+    top: 200%;
+    left: 50%;
+    transform: translate(-50%, -10px);
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 12px;
+    visibility: hidden;
+  }
+  
+  .hover-css:hover::before {
+    visibility: visible;
+  }
+  
