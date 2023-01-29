@@ -15,10 +15,13 @@ function Feed() {
         <div className="feed">
             <Project data={intro} />
             <Project data={oms} /> 
-            <Project data={featurenet} />
             <Project data={musicsurf} />
-            <Project data={stonekeep} />
+            
+            <Project data={featurenet} />
             <Project data={saladtime} />
+            
+            <Project data={stonekeep} />
+
             <Project data={art} />
         </div>
        

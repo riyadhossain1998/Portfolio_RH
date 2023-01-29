@@ -1,8 +1,5 @@
-import Project from './Project'
-import { useState } from 'react';
-import intro from '../../Data/intro.json';
-import musicsurf from '../../Data/musicsurf.json'
-import Feed from './Feed'
+import { useState, useEffect } from 'react';
+
 
 import './Stylesheets/Projects.css'
 
@@ -11,20 +8,28 @@ function Projects() {
 
     function handleClick(e) {
         setActiveButton(e.target.innerText);
-        
+        const element = document.getElementById(e.target.dataset.id);
+        console.log(element)
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    
     }
 
     return (
-        <div className="btn-group-vertical" role="group">
-            <button type="button" className={`btn btn-custom ${activeButton === "Home" ? "active" : ""}`} onClick={handleClick}>Home</button>
-            <button type="button" className={`btn btn-custom ${activeButton === "Projects" ? "active" : ""}`} onClick={handleClick}>Projects</button>
-            <button type="button" className={`btn btn-custom ${activeButton === "Illustrator" ? "active" : ""}`} onClick={handleClick}>Illustrator</button>
-            <button type="button" className={`btn btn-custom ${activeButton === "Photoshop" ? "active" : ""}`} onClick={handleClick}>Photoshop</button>
-            <button type="button" className={`btn btn-custom ${activeButton === "ZBrush" ? "active" : ""}`} onClick={handleClick}>ZBrush</button>
+        <div className="btn-group-vertical mt-5" role="group">
+            <button type="button" data-id="1" className={`btn btn-custom ${activeButton === "Home" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Home</b></button>            
+            <button type="button" data-id="2" className={`btn btn-custom ${activeButton === "UI/UX Experience" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>UI/UX</b> | MusicSurf</button>
+            <button type="button" data-id="6" className={`btn btn-custom ${activeButton === "UI/UX Experience" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>UI/UX</b> | Order Management System</button>
+            <button type="button" data-id="3" className={`btn btn-custom ${activeButton === "HTML/CSS/JS Experience" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Website</b> Salad Bowl Generator</button>
+            <button type="button" data-id="7" className={`btn btn-custom ${activeButton === "HTML/CSS/JS Experience" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Python & Webpage</b> | Feature Network</button>
+            <button type="button" data-id="4" className={`btn btn-custom ${activeButton === "Unity/C# Experience" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Unity & C#</b> | Stone Keep</button>
+            <button type="button" data-id="5" className={`btn btn-custom ${activeButton === "Artwork" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Artworks</b></button>
         </div>
     );
 
 }
+
 
 
 /*
