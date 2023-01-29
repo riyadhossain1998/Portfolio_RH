@@ -2,7 +2,6 @@ import SkillsFeed from './SkillsFeed'
 import Feed from './Feed'
 import Projects from './Projects'
 import './Stylesheets/Body.css'
-import QuickLinks from './QuickLinks'
 
 function Body() {
     return(
