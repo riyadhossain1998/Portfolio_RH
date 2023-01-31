@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Circular-Spotify";
+    src: url("./my-custom-font.otf") format("opentype");
+  }
+  
+  body {
+    font-family: "MyCustomFont", sans-serif;
+  }
+  

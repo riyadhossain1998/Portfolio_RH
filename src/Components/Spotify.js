@@ -1,3 +1,5 @@
+
+import './Spotify.css'
 function Spotify() {
 
 }

@@ -1,3 +1,4 @@
+
 .btsr-card {
     width: 100%;
 }
@@ -16,7 +17,10 @@
 }
 
 .poster {
-    font-weight: 500;
+    font-size: 0.95rem;
+    line-height: 1.4;
+    color: #282829;
+    font-weight: bold;
 }
 
 .timestamp {
@@ -29,7 +33,8 @@
 }
 
 .small-text {
-    font-size: 1rem;
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 0.8rem;
 }
 
 .carousel-item img {
@@ -53,4 +58,16 @@
 
 .bullet-pts {
     text-align: left;
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    color: #282829;
 }
+.description {
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    color: #282829;
+}
+  
+  

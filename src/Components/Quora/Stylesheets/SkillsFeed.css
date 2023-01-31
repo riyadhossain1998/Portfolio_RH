@@ -7,9 +7,25 @@
 
 h3 {
     text-decoration: underline;
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 21px;
+    line-height: 1.4;
+    color: #282829;
+    
 }
 
 h5 {
     text-decoration: underline;
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 17px;
+    line-height: 1.4;
+    color: #282829;
+    font-weight: bold;
 }
 
+p {
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #282829;
+}
