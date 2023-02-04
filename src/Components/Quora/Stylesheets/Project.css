@@ -51,6 +51,7 @@
     top: 50%;
     transform: translateY(-50%);
     font-size: 2rem;
+    background-color: #B92B27;
 }
 .carousel-item {
     overflow: hidden;
