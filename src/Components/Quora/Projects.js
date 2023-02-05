@@ -19,19 +19,19 @@ function Projects() {
             <button type="button" data-id="1" 
                 className={`btn btn-custom ${activeButton === "Home" ? "active" : ""}`} 
                 onClick={handleClick}>
-                    <img src="./baby_cheems.png"/><b>Home</b>
+                    <img src="./images/intro/portrait1.jpeg"/><b>Home</b>
             </button>            
             <button type="button" data-id="6" 
                 className={`btn btn-custom ${activeButton === "UI/UX | Order Management System" ? "active" : ""}`} 
                 onClick={handleClick}>
-                    <img src="./baby_cheems.png"/><b>UI/UX</b> | Order Management System
+                    <img src="./images/oms/ps12.png"/><b>UI/UX</b> | Order Management System
             </button>
             <button type="button" data-id="2" 
                 className={`btn btn-custom ${activeButton === "UI/UX | MusicSurf" ? "active" : ""}`} 
                 onClick={handleClick}>
                     <img src="./images/musicsurf/Logo.png"/><b>UI/UX</b> | MusicSurf
             </button>
-            <button type="button" data-id="7" className={`btn btn-custom ${activeButton === "Python & Webpage | Feature Network" ? "active" : ""}`} onClick={handleClick}><img src="./baby_cheems.png"/><b>Python & Webpage</b> | Feature Network</button>
+            <button type="button" data-id="7" className={`btn btn-custom ${activeButton === "Python & Webpage | Feature Network" ? "active" : ""}`} onClick={handleClick}><img src="./images/featurenet/react-graph.png"/><b>Python & Webpage</b> | Feature Network</button>
             <button type="button" data-id="3" className={`btn btn-custom ${activeButton === "Website | Salad Bowl Generator" ? "active" : ""}`} onClick={handleClick}><img src="./images/saladtime/saladtime.png"/><b>Website</b> | Salad Bowl Generator</button>
             <button type="button" data-id="4" className={`btn btn-custom ${activeButton === "Unity & C# | Stone Keep" ? "active" : ""}`} onClick={handleClick}><img src="./images/stonekeep/stonekeep.png"/><b>Unity & C#</b> | Stone Keep</button>
             <button type="button" data-id="5" className={`btn btn-custom ${activeButton === "Artworks" ? "active" : ""}`} onClick={handleClick}><img src="./images/art/plakatsil.png"/><b>Artworks</b></button>

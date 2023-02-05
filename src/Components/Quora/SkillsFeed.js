@@ -36,8 +36,7 @@ function SkillsFeed() {
             </div>
 
            <div className="skills mt-4">
-                <h5>Documentation & Research</h5>
-                <p>Using mostly Google & ChatGPT for research</p>
+                <h5>Documentation</h5>
                 <p>Google Docs for design documentation</p>
                 <p>Trello for setting tasks</p>
                 <p>Miro for design outline & brainstorming</p>

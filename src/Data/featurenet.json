@@ -3,7 +3,7 @@
     "post_tag": "fn",
     "poster": "Feature Network",
     "image": "./images/featurenet/react-graph.png",
-    "time_posted": "Jan 25, 2023",
+    "time_posted": "July 8 2022- July 28 2022",
     "studied": "In Progress · HTML, CSS, JavaScript, D3.js, Python",
     "images": ["./images/featurenet/react-graph.png", "./images/featurenet/prototype-graph.png", "./images/featurenet/prototype-feature-data.png"],
     "bullet_pts": [
@@ -14,5 +14,5 @@
         "Option to create personalized playlists"
         
     ],
-    "paragraph": "This is a personal project where the objective is to create a network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on Python where the user can retrieve artist, song, album etc information from Spotify using the spotipy API. Then the data is organized into nodes and edges to create a large network, for which I used the D3.js to create a force directed graph. \n\n So far, the network graph has been established in my react project as I work on more interactive features with D3.js and authentication has been implemented for Spotify login. More features to be implemented in due time:"
+    "paragraph": "This is a personal project where the objective is to create a network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on Python where the user can retrieve artist, song, album etc information from Spotify using the spotipy API, starting out on python it was a fun experience getting to play around with different datasets as I prepared csv files containing playlist information. As a shortcut and convenience, I handpicked user made playlists where people added every song of a particular artist and ran the python script to retrieve all information necessary information required to build the network graph. Ever since I took a break from the project as I got busy with school and I was trying to use Flask to implement the graph but due to it's limited capabilites I chose to do React now in 2023. The organized data will create nodes and edges into nodes and edges to create a large network of American/Canadian/International Artists and I used the D3.js to create a force directed graph. \n\n So far, the network graph has been established in my react project as I work on more interactive features with D3.js and authentication has been implemented for Spotify login. More features to be implemented in due time:"
 }
