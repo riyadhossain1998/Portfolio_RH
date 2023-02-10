@@ -9,8 +9,7 @@ function NavBar() {
                         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span className="navbar-toggler-icon"></span>
                         </button> 
-                        
-                        
+
                         
                         <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                             <div className="col-md-3">
@@ -23,7 +22,7 @@ function NavBar() {
                                 <a className="nav-link" href="#">Spotify Theme</a>
                             </div>
                             <div className="col-md-3">
-                            <a className="mr-4 hover-css" data-content="Download Resume" href="./RH Resume-3.pdf" download="RH_Resume"><img className="icons" src={process.env.PUBLIC_URL + "./icons/downloads.png"} /></a>
+                            <a className="mr-4 hover-css" data-content="Download Resume" href="./resumes/FEUX-RH-Resume.pdf" download="RH_Resume"><img className="icons" src={process.env.PUBLIC_URL + "./icons/downloads.png"} /></a>
                             <a className="mr-4 hover-css" data-content="GitHub" href="https://github.com/riyadhossain1998" title="github icons"><img className="icons" src={process.env.PUBLIC_URL + "./icons/github.png"}/></a>
                             <a className="mr-4 hover-css" data-content="LinkedIn" href="https://linkedin.com/in/riyad-hossain-30773914b" title="linkedin icons"><img className="icons" src={process.env.PUBLIC_URL + "./icons/linkedin.png"}/></a>
 
