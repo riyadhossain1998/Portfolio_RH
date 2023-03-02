@@ -5,7 +5,13 @@
     "image": "./images/featurenet/react-graph.png",
     "time_posted": "July 8 2022- July 28 2022",
     "studied": "In Progress · HTML, CSS, JavaScript, D3.js, Python",
-    "images": ["./images/featurenet/react-graph.png", "./images/featurenet/prototype-graph.png", "./images/featurenet/prototype-feature-data.png"],
+    "images": [
+        "./images/featurenet/react-graph.png",
+        "./images/featurenet/prototype-graph.png",
+        "./images/featurenet/prototype-feature-data.png",
+        "./images/featurenet/working-prototype.png"
+        
+    ],
     "bullet_pts": [
         "[URGENT] Links Info Section",
         "[URGENT] Artist Profile Section",
@@ -20,5 +26,5 @@
         
         
     ],
-    "paragraph": "This is my personal project where I wanted to create a 2D network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on ;Python; where the user can retrieve artist, song, album etc information from Spotify using the ;SpotiPY API;, starting out on python it was a fun experience getting to play around with different datasets as I prepared csv files containing playlist information. As a shortcut and convenience, I handpicked user made playlists where people added every song of a particular artist and ran the python script to retrieve all information necessary information required to build the network graph. The data has been organized to contain all sorts of artist info, it can now take direct input from the spotipy api to create a large network of American/Canadian/International Artists and I used the D3.js to create a force directed graph to visualize the connection between different artists. \n\n I have made long progress in this project so far as I am currently building it in Flask, the website should be launching by the end of April (tentative release) as users will be able to login and visualize their playlists in this format. I also intend on making a music player if I get the opportunity, specifically the design from MusicSurf. Here's everything done so far and features I wish to implement (in brief):"
+    "paragraph": "This is my personal project where I wanted to create a 2D network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on ;Python; where the user can retrieve artist, song, album etc information from Spotify using the ;spotipy; API, Initially, I started this project after learning ;pandas; and ;numpy;, after which I learned of spotipy and tinkered with it until I was able to retrieve all sorts of data about artists and their songs. Recently, I have revisited my old code and further reconstructed it to include more documentation and organized tidied up the functions and now it can now take direct input from the spotipy api to create a large network of American/Canadian/International Artists for which I have used the D3.js to create a force directed graph to visualize and display their music in a unique format. \n\n I have made amazing progress in this project so far as I am currently building it in ;Flask;, the website should be launching by the end of April (tentative release) as users will be able to login and visualize their playlists in this format. Here's the backlog of my progress (in brief):"
 }
