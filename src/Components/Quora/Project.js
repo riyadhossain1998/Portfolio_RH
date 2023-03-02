@@ -1,7 +1,6 @@
 
-import {useState, useEffect} from 'react'
 import './Stylesheets/Project.css'
-
+import DOMPurify from 'dompurify'
 
 function Project(props) {
     let desc = ''
@@ -10,8 +9,31 @@ function Project(props) {
 
     const json_data = props.data
     
+
+    //  Description formatting
     desc = json_data.paragraph
     desc.replace(/\\n/g, '\n');
+
+
+    const boldDesc = desc.replace(/;(.*?);/g, "<b>$1</b>"); //  use ;; in JSON for bold typeface
+
+    //console.log(boldDesc)
+
+
+    const sanitizedText = boldDesc.replace(/<b>/g, "<span class='bold'>").replace(/<\/b>/g, "</span>");
+
+
+    desc = DOMPurify.sanitize(sanitizedText)
+
+    
+    
+    
+    for (let bpt of json_data.bullet_pts) {
+      if (bpt.indexOf("[COMPLETED]") !== -1) {
+        console.log(bpt);
+      }
+    }
+    
 
     //  Bullet Points render
     bullet_points = json_data.bullet_pts.map((bullet,index) =>
@@ -47,7 +69,7 @@ function Project(props) {
     return(
       <div className="card bstr-card mt-5" id={json_data.post_id}>
         <div className="card-header d-flex align-items-center card-hd">
-          <img src={process.env.PUBLIC_URL + json_data.image } alt="User profile picture" className="rounded-circle" width="36" height="36"style={{ objectFit: 'cover', width: '36px', height: '36px' }}/>
+          <img src={process.env.PUBLIC_URL + json_data.image } alt="" className="rounded-circle" width="36" height="36"style={{ objectFit: 'cover', width: '36px', height: '36px' }}/>
           <div className="ml-2 d-flex flex-column">
             <p className="card-title mb-0 text-left poster">{json_data.poster}</p>
             <div className="d-flex">
@@ -59,9 +81,9 @@ function Project(props) {
 
         </div>
         <div className="card-body">
-          <p className="card-text text-left description">
-              {desc}
-          </p>
+          
+          <p className="card-text text-left description" dangerouslySetInnerHTML={{ __html: sanitizedText }}></p>
+          
           {bullet_points}
         {carousel}
         </div>

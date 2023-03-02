@@ -7,12 +7,18 @@
     "studied": "In Progress · HTML, CSS, JavaScript, D3.js, Python",
     "images": ["./images/featurenet/react-graph.png", "./images/featurenet/prototype-graph.png", "./images/featurenet/prototype-feature-data.png"],
     "bullet_pts": [
-        "Interactive Graph to explore more music from the user's favorite artist",
-        "Artist Profile Section",
-        "Artist's face as nodes",
-        "Preview for songs",
-        "Option to create personalized playlists"
+        "[URGENT] Links Info Section",
+        "[URGENT] Artist Profile Section",
+        "[URGENT] Spotify Styles (Color Scheme and Font)",
+        "[MODERATE] Preview for songs",
+        "[MODERATE] Option to create personalized playlists",
+        "[MODERATE] Advanced Spotify Login for Front End",
+        "[LOW] MusicSurf music player",
+        "[COMPLETED] Images as nodes and passing information from JSON ",
+        "[COMPLETED] Organized SpotiPY Back-End and connected to webpage",
+        "[COMPLETED] Flask File Structure"
+        
         
     ],
-    "paragraph": "This is a personal project where the objective is to create a network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on Python where the user can retrieve artist, song, album etc information from Spotify using the spotipy API, starting out on python it was a fun experience getting to play around with different datasets as I prepared csv files containing playlist information. As a shortcut and convenience, I handpicked user made playlists where people added every song of a particular artist and ran the python script to retrieve all information necessary information required to build the network graph. Ever since I took a break from the project as I got busy with school and I was trying to use Flask to implement the graph but due to it's limited capabilites I chose to do React now in 2023. The organized data will create nodes and edges into nodes and edges to create a large network of American/Canadian/International Artists and I used the D3.js to create a force directed graph. \n\n So far, the network graph has been established in my react project as I work on more interactive features with D3.js and authentication has been implemented for Spotify login. More features to be implemented in due time:"
+    "paragraph": "This is my personal project where I wanted to create a 2D network of popular artists that collaborated with each other in the Pop, Hip Hop and Rap community. \n\n This project was initially built on ;Python; where the user can retrieve artist, song, album etc information from Spotify using the ;SpotiPY API;, starting out on python it was a fun experience getting to play around with different datasets as I prepared csv files containing playlist information. As a shortcut and convenience, I handpicked user made playlists where people added every song of a particular artist and ran the python script to retrieve all information necessary information required to build the network graph. The data has been organized to contain all sorts of artist info, it can now take direct input from the spotipy api to create a large network of American/Canadian/International Artists and I used the D3.js to create a force directed graph to visualize the connection between different artists. \n\n I have made long progress in this project so far as I am currently building it in Flask, the website should be launching by the end of April (tentative release) as users will be able to login and visualize their playlists in this format. I also intend on making a music player if I get the opportunity, specifically the design from MusicSurf. Here's everything done so far and features I wish to implement (in brief):"
 }
