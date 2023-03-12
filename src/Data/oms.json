@@ -4,8 +4,17 @@
     "poster": "Order Management System",
     "image": "./baby_cheems.png",
     "time_posted": "November 2022",
-    "studied": "In Progress · Figma",
-    "images": ["./images/oms/ps12.png", "./images/oms/home.png"],
-    "bullet_pts": ["Packing Interface", "Completed Orders Interface", "Printing Interface", "Changes from previous design", "Icons"],
-    "paragraph": "Figma Personal Project of an Order Management System based on the system I use at my workplace with the following new features to be added.\n\n I analyzed the problems we face at work everyday and decided to implement quality of life improvements with more information to help us create ease of access and provide a better customer experience.\n\n Features to implement:\n\n"
+    "studied": "In Progress \u00b7 Figma",
+    "images": [
+        "./images/oms/ps12.png",
+        "./images/oms/home.png"
+    ],
+    "bullet_pts": [
+        "Packing Interface",
+        "Completed Orders Interface",
+        "Printing Interface",
+        "Changes from previous design",
+        "Icons"
+    ],
+    "paragraph": ";Personal Figma Project; of an ;Order Management System; that I am currently working on to improve my Figma skills. This is based on the app I use at myworkplace to fulfill online orders and other floor and receiving activities but this project will first focus on ;online order fulfilment;. My goal for thisproject is to improve ;user experience; for ;retail workers; by making it more ;intuitive; and ;easy to use;. \n\n I am currently working on the ;wireframes;The current designs are just a redesign of the old version, the reason why I did not make a drastic change in UI is because I did not want retail employeesto relearn the system, as a result, I kept the interaction flow similar, with added clarity and more information on screen.\n\nI analyzed the problems we face at work everyday and decided to implement these quality of life improvements for better ;efficiency;, ;productivity; and ;mental health;. With these factors improving, the overall ;customer experience; will surely improve as well."
 }

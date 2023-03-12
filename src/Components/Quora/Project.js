@@ -20,7 +20,7 @@ function Project(props) {
     //console.log(boldDesc)
 
 
-    const sanitizedText = boldDesc.replace(/<b>/g, "<span class='bold'>").replace(/<\/b>/g, "</span>");
+    const sanitizedText = boldDesc.replace(/<b>/g, "<span class='highlight'>").replace(/<\/b>/g, "</span>");
 
 
     desc = DOMPurify.sanitize(sanitizedText)
@@ -30,13 +30,14 @@ function Project(props) {
     
     for (let bpt of json_data.bullet_pts) {
       if (bpt.indexOf("[COMPLETED]") !== -1) {
-        console.log(bpt);
+        
       }
     }
     
 
     //  Bullet Points render
-    bullet_points = json_data.bullet_pts.map((bullet,index) =>
+    
+    bullet_points = json_data.bullet_pts.map((bullet,index) => 
       <li className="bullet-pts" key={index}>{bullet}</li>)
     
     //  Carousel render

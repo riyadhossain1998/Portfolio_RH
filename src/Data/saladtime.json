@@ -4,8 +4,12 @@
     "poster": "Humming Salad Bar",
     "image": "./images/saladtime/saladtime.png",
     "time_posted": "February 2021 - March 2021",
-    "studied": "CPSC 581 · HTML, CSS, JavaScript, BootStrap",
-    "images": ["./images/saladtime/st-home.png", "./images/saladtime/st-loading.png", "./images/saladtime/st-result.png"],
+    "studied": "CPSC 581 \u00b7 HTML, CSS, JavaScript, BootStrap",
+    "images": [
+        "./images/saladtime/st-home.png",
+        "./images/saladtime/st-loading.png",
+        "./images/saladtime/st-result.png"
+    ],
     "bullet_pts": [],
-    "paragraph": "The objective of this solo project was to create a unique interaction with voice but without using any words as input so I came up with the idea of a Humming Salad Bar. (Salad Time!)\n\nHumming Salad Bar is built on simple HTML/CSS/JavaScript where the user has to hum into the microphone to generate a recipe for a salad bowl based on their dietary preferences. \n\n Due to time constraint, I focused mostly on getting the interaction working, otherwise there were some more ideas that I had in mind for example, an animated clip showing a bowl and the ingredients being generated. \n\n(P.S I apologize for the use of Comic Sans.)"
+    "paragraph": "The project was completed during my ;HCI II; course. Our objective was to create ;a unique interaction with sound without the use of words.; \n\nWhich is why I decided to build a humming salad bar, where the user has to hum a song or tune and based on the humming, a salad bowl recipe is created based on user's preferred dietary choices, which is a necessary input option to account for different diets.For the assets, I have used Illustrator to design and build, I am still not a fan of the font, but it adds to the quirky idea so I went along with it.This is a mobile web app, built using ;HTML/CSS/JavaScript; and ;BootStrap;"
 }

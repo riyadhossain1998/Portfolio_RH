@@ -4,8 +4,12 @@
     "poster": "MusicSurf",
     "image": "./images/musicsurf/Logo.png",
     "time_posted": "January 2019 - March 2019",
-    "studied": "CPSC 481 · Adobe XD, Adobe Illustrator",
+    "studied": "CPSC 481 \u00b7 Adobe XD, Adobe Illustrator",
     "bullet_pts": [],
-    "images": ["./images/musicsurf/Now Playing.png","./images/musicsurf/Explore.png", "./images/musicsurf/Library.png"],
-    "paragraph": "The objective of this team project was to create a prototype following the User Experience Design Principle we learned in class and we thought of making an unique solution to find and listening to music. \n\nMusicSurf is a concept of a music player which allows the user to listen to music based on their moods. Songs are connected to each other like a network graph and categorized by moods. "
+    "images": [
+        "./images/musicsurf/Now Playing.png",
+        "./images/musicsurf/Explore.png",
+        "./images/musicsurf/Library.png"
+    ],
+    "paragraph": "This is a prototype of a ;music streaming service; like Spotify and Apple Music that I helped create in a ;team; of ;five people; for my ;Human Computer Interaction I;course. For this, we conducted ;user research; to learn about competitors, end-user and stakeholder needs. We used ;UX Design Principles; we learned in class to ;ideate;, ;brainstorm; and ;prototype; our ideas. We had ;initial sketches;, which turned into ;colored designs; to ;low-fidelity prototypes; created with ;Adobe XD;. After a round of user testing, presentations and feedback, we created the ;high-fidelity prototype; with more features and animationsusing Adobe XD. \n\n I was tasked in all stages of the process, from ;interviews;, ;research; and ;documentation; to prototyping the music player feature.\n\nWhat set us apart from apps like Spotify and MusicSurf was the concept of being able to find music based on the user's mood. The music was sorted bydifferent emotions, the songs were linked to each other based on those mood. Users could play around with the songs, linking and unlinking songs in queue.The music player has a circular design, with the pause button in the middle. Additional features included lyrics and queued songs in nodes."
 }

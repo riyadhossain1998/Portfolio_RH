@@ -4,19 +4,22 @@
     "poster": "Stone Keep",
     "image": "./images/stonekeep/stonekeep.png",
     "time_posted": "January 2022 - April 2022",
-    "studied": "ART 503 · Unity, C#, Adobe Illustrator",
-    "images": ["./images/stonekeep/stonekeep.png", "./images/stonekeep/sk-start.png", "./images/stonekeep/sk-game1.png", "./images/stonekeep/sk-mage.png", "./images/stonekeep/sk-boss.png"],
-    "bullet_pts":
-        [
-            "Archer: Double jump, fast movement, weaker range attacks", 
-            "Mage: Curved and stronger ranged attack and can warp a certain distance", 
-            "Tank: Blocks attacks from enemies      ", 
-            "Rogue: Faster melee attacks and can wall jump",
-            "Movement Mechanics: Wall Jump, Warping, Double Jump",
-            "Multiple enemy sprites with different damage markers and range.",
-            "All details documented in a Game Design document, can be shown upon request."
-
-        ],
-    "paragraph": "The objective of this course was to create a game using any game engine so we used Unity & C# to create a 2D platform game called Stone Keep. Key game features include character switching, different character abilities and mechanics, variation of enemy AIs (including one boss), and both normal and strange obstacles.\n\n Key Features Implemented:\n\n"
-    
+    "studied": "ART 503 \u00b7 Unity, C#, Adobe Illustrator",
+    "images": [
+        "./images/stonekeep/stonekeep.png",
+        "./images/stonekeep/sk-start.png",
+        "./images/stonekeep/sk-game1.png",
+        "./images/stonekeep/sk-mage.png",
+        "./images/stonekeep/sk-boss.png"
+    ],
+    "bullet_pts": [
+        "Archer: Double jump, fast movement, weaker range attacks",
+        "Mage: Curved and stronger ranged attack and can warp a certain distance",
+        "Tank: Blocks attacks from enemies      ",
+        "Rogue: Faster melee attacks and can wall jump",
+        "Movement Mechanics: Wall Jump, Warping, Double Jump",
+        "Multiple enemy sprites with different damage markers and range.",
+        "All details documented in a Game Design document, can be shown upon request."
+    ],
+    "paragraph": "The objective of this course was to create a game using any game engine so we used ;Unity & C#; to create an ;action/adventure game;.We were in a ;team of four;, two developers, one designer and one sound engineer. Key features of this game include multiple playable characters, different character mechanics, varying enemy AIs (including one boss) and illusive obstacles. (e.g deceiving floor tiles). Game Design Document can be found below and here are list of features we have implemented:\n\n"
 }
