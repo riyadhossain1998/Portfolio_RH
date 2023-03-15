@@ -9,7 +9,8 @@
         "./images/featurenet/react-graph.png",
         "./images/featurenet/prototype-graph.png",
         "./images/featurenet/prototype-feature-data.png",
-        "./images/featurenet/working-prototype.png"
+        "./images/featurenet/working-prototype.png",
+        "./images/featurenet/flask-graph-p1.png"
     ],
     "bullet_pts": [
         "[URGENT] Links Info Section",
