@@ -1,0 +1,29 @@
+.navigation-bar {
+  display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 6rem 3rem 6rem; /* add padding of 20 pixels on the left and right */
+    position: sticky;
+    border: 0.15rem solid #ea7570df;
+    background-color: rgb(203, 203, 254);
+    /* For sticky section2 : enable to use */ 
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+   
+    
+}
+
+.navigation-bar-item {
+    border: 0.15rem solid #ea7570df;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.navbar-elements {
+    display: flex;
+    
+}

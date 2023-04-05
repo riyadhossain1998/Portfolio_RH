@@ -1,5 +1,5 @@
 import './Stylesheets/NavBar.css'
-
+import Page from '../ProjectPages/Page'
 function NavBar() {
     return(
         <div className="container-fluid">

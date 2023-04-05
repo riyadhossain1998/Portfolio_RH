@@ -1,0 +1,58 @@
+.section2 {
+    border: 0.18rem solid #b92b27;
+    border-radius: 0.25rem;
+    width: 33.3333333333333%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    
+    /* For sticky section2 : enable to use
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    overflow: auto;
+    */
+    
+}
+
+.project-bullet-point {
+    list-style-type: disc;
+    font-weight: lighter;
+}
+.disc {
+    list-style-type: none;
+    font-weight: lighter;
+}
+
+.project-bullet-point-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+
+    
+}
+
+.project-bullet-point-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 0.5rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    
+
+} 
+
+.project-bullet-point-text {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    font-weight: bold;
+    font-size: 0.9375rem;
+    line-height: 2;
+    color: #282829;
+    align-self: center;
+    list-style: none;
+}

@@ -1,0 +1,84 @@
+{
+    "section1": {
+        "displayImage": "/images/intro/portrait1.jpeg",
+        "title": "React Portfolio",
+        "footnote": "Launched January 11, 2023",        
+        "navBarElements": ["User Flow Diagram", "Sketches", "Wireframes", "Final Design"],
+        "wireframes": [
+            {
+                "url": "/images/portfolio/wireframe.png",
+                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
+            }
+            
+        ],
+        "sketch": [
+            {
+                "url": "/images/portfolio/pf_sketch1.png",
+                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
+            },
+            {
+                "url": "/images/portfolio/pf_sketch2.png",
+                "subText": "Component Sketch 1: Technologies used."
+            }
+            
+        ],
+
+        "currentDesign": [
+            {
+                "url": "/images/portfolio/version1.png",
+                "subText": "Working prototype of the app, currently displays graph from JSON Data organized from Spotify Web API."
+            }
+        ],
+        "userflowImage": "/images/userflow.png",
+        "githubURL": "",
+        "liveURL": "",
+        "buttonLinks": [
+            "https://www.github.com", 
+            "https://www.riyadhossain.page"
+        ],
+        "buttonIcons": [
+            "/icons/github.png",
+            "/icons/preview.png"
+        ],
+        "buttonText": [
+            "Github",
+            "Preview"
+        ],
+
+
+        "problem": "In this sea of competition, how does one stand out? How can I show my personality, skills and experiences in one place in a way my audience would see ambition, passion and potential. Taking into account these accolades, a risk was imminent. ",
+        "solution": "I decided to create a different experience, yet simple, readable, user-friendly and perhaps a sense of familiarity. A Social Media-Styled Portfolio is what I chose to build as the design inspired by Quora. "
+
+        
+
+    },
+
+    "section2": {
+        "summary": "This page is a progress report for my React Portfolio Project. The design is based on Quora's homepage and profile page, modified in the style of a portfolio.",
+        "roles": ["UI/UX Design", "UX Writing", "Front-End Development"],
+        "techStack": ["HTML", "CSS", "JavaScript", "React", "React Router", "Node.js", "React Hooks", "Python", "VS Code"],
+        "techStackIcons": [
+            "/icons/techstack/html-5.svg", 
+            "/icons/techstack/css-3.svg", 
+            "/icons/techstack/javascript.svg",
+            "/icons/techstack/react.svg",
+            "/icons/techstack/react-router.svg",
+            "/icons/techstack/nodejs.svg",
+            "/icons/techstack/hookstate.svg",
+            "/icons/techstack/python.svg",
+            "/icons/techstack/visual-studio-code.svg"
+        ],
+        "userStories": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "designRemarks": "I have used the Quora color scheme of red, grey and white. ",
+        "successes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "lessonsLearned": [
+            "Gained a better understanding of React and React Hooks. (not quite there yet)", 
+            "CSS and Flexbox practised well and is now part of my intuitive design process. (we're halfway there!!)", 
+            "Very organized and tidy use and creation of React omponents. (with room for improvement)"
+    
+        ],
+        "nextSteps": "This project carried forward will consist of portfolios in different interface styles of common web applications, including responsiveness to smaller devices. ."
+    }
+
+
+}

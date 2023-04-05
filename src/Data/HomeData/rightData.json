@@ -1,0 +1,22 @@
+{
+    "courses": [],
+    "technologies": {
+    
+        "name": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React"
+        ],
+        "icons": [
+            
+                "/icons/techstack/html.png",
+                "/icons/techstack/css.png",
+                "/icons/techstack/javascript.png",
+                "/icons/techstack/react.png",
+                "/icons/techstack/nodejs.png"
+                
+            
+        ]
+    }
+}

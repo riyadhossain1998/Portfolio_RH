@@ -13,7 +13,7 @@ stonekeepjson = './portfolio/src/Data/stonekeep.json'
 #   Paragraphs to edit
 art = "Personal and School Projects. Will be adding more soon. "
 
-featurenet = \
+featurenet0 = \
     "This is my personal project where I wanted to create a 2D network of popular artists that collaborated with each other in the mainstream music."\
     "\n\n"\
     "This project was initially built on ;Python; where the user can visualize their playlist. Initially, I started this project after learning "\
@@ -23,6 +23,9 @@ featurenet = \
     "The complete app should include a lot more unique user interaction, a fun way to listen to music. Below is a backlog of my progress and what I intend "\
     "to do next. \n\n Below, I will link the GitHub Repo and once the website is up, the link. @GitHub@"
 
+featurenet = \
+    "A personal project where I wanted to visualize a 2D network of my favorite artists to see who they collaborated with. From there I built on "\
+    "this idea and created a website with Python, Flask and D3.js. The website is currently in development, but you can check out my progress below. "\
 
 intro0 = \
     "Hello! I am Riyad and I just graduated from the ;University of Calgary; in ;Visual Studies, Art History; and ;Computer Science;. My ;Multidisciplinary degree; "\
@@ -39,11 +42,17 @@ intro0 = \
 intro = \
     "Welcome and thank you for taking your time to visit my portfolio! My name is Riyad and I am a ;developer; & ;designer; who thrives for innovation and "\
     "usability. Everything I have been learning from university, I have been applying to my profession and the person I want to be, which is to give back to the "\
-    "country where I grew to adulthood. Time never stops, change is inevitable."\
+    "country where I grew to adulthood. "\
         "\n\n"\
-    "Below this post are all my ;projects; you can ;scroll through; or ;use the shortcuts; to learn more about my work. My backlog for the portfolio is as follows: "\
+    "Below this post are all my ;projects; you can ;scroll through; or ;use the shortcuts; to learn more about my work. Click below to learn more about the progress "\
+    "and planning of this portfolio."
     
 musicsurf = \
+    "MusicSurf is a music streaming platform that categorizes music based on heuristics such as moods, genres and emotions. This is a prototype created "\
+    "using ;Adobe XD; for my ;Human Computer Interaction I; course. I was tasked in all stages of the process, from ;interviews;, ;research; and ;documentation; "\
+    "Click below to learn more. "    
+
+musicsurf0 = \
     "This is a prototype of a ;music streaming service; like Spotify and Apple Music that I helped create in a ;team; of ;five people; for my ;Human Computer Interaction I; "\
     "course. We conducted ;user research; to learn about competitors, end-user and stakeholder needs. We used ;UX Design Principles; "\
     "to ;ideate;, ;brainstorm; and ;prototype; our ideas. We had ;initial sketches;, which turned into ;colored designs; to ;low-fidelity prototypes; "\
@@ -70,6 +79,7 @@ oms = \
         "\n\n"\
     "After the completion of this prototype, a complete workflow of the system will be demonstrated to showcase the simple user flow of the design. "\
     "With these factors improving, the overall ;customer experience; will surely improve as well, the project document can be shown upon request. "\
+    ";Project Page Under Construction;"
 
 saladtime = \
     "The project was completed during my ;HCI II; course. Our objective was to create ;a unique interaction with sound without the use of words.; "\
@@ -77,13 +87,13 @@ saladtime = \
     "Which is why I decided to build a humming salad bar, where the user has to hum a song or tune and based on the humming, a salad bowl recipe is created "\
     "based on user's preferred dietary choices, which is a necessary input option to account for different diets."\
     "For the assets, I have used Illustrator to design and build, I am still not a fan of the font, but it adds to the quirky idea so I went along with it."\
-    "This is a mobile web app, built using ;HTML/CSS/JavaScript; and ;BootStrap;"\
+    "This is a mobile web app, built using ;HTML/CSS/JavaScript; and ;BootStrap; ;Project Page Under Construction;"\
         
 stonekeep = \
     "The objective of this course was to create a game using any game engine so we used ;Unity & C#; to create an ;action/adventure game;. "\
     "We were in a ;team of four;, two developers, one designer and one sound engineer. Key features of this game include multiple playable characters, "\
     "different character mechanics, varying enemy AIs (including one boss) and illusive obstacles. (e.g deceiving floor tiles). Game Design Document can be found "\
-    "below and here are list of features we have implemented:\n\n"
+    "below and here are list of features we have implemented:\n\n ;Project Page Under Construction;"
 
 
 def readNewParagraph(para):

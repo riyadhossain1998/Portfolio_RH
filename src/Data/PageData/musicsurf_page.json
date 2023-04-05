@@ -1,0 +1,105 @@
+{
+    "section1": {
+        "displayImage": "/images/musicsurf/Logo.png",
+        "title": "Music Surf",
+        "footnote": "Human Computer Interaction - I Project | Jan 2019 - March 2019",        
+        "navBarElements": ["User Flow Diagram", "Sketches", "Wireframes", "Final Design"],
+        "wireframes": [
+            {
+                "url": "/images/musicsurf/login_lowfi.png",
+                "subText": "Low Fidelity Prototype 0: Login Page."
+            },
+            {
+                "url": "/images/musicsurf/graphmenu_lowfi.png",
+                "subText": "Low Fidelity Prototype 1: Playlist layout in a graph form."
+            },
+            {
+                "url": "/images/musicsurf/nowplaying_lowfi.png",
+                "subText": "Low Fidelity Prototype 2: Now Playing."
+            },
+            {
+                "url": "/images/musicsurf/explore_lowfi.png",
+                "subText": "Low Fidelity Prototype 3: Explore More."
+            }
+
+            
+        ],
+        "sketch": [
+            {
+                "url": "/images/musicsurf/graphmenu_sketch.png",
+                "subText": ""
+            },
+            {
+                "url": "/images/musicsurf/nowplaying_sketch.png",
+                "subText": ""
+            },
+            {
+                "url": "/images/musicsurf/exploremore_sketch.png",
+                "subText": ""
+            }
+            
+        ],
+        "userflowImage": "/images/userflow.png",
+        "githubURL": "",
+        "liveURL": "",
+        "buttonLinks": [
+            "https://colinauyeung.github.io/CPSC-481--MusicSurf/", 
+            "https://drive.google.com/file/d/1VT-PEbY7ctVZ7pEy-bpumrkTl9xHWFc8/view?usp=sharing"
+        ],
+        "buttonIcons": [
+            "/icons/github.png",
+            "/icons/preview.png"
+        ],
+        "buttonText": [
+            "Github",
+            "Preview"
+        ],
+
+        "currentDesign": [
+            {
+                "url": "/images/musicsurf/login_hifi.png",
+                "subText": "Login & Register Pages"
+            },
+            {
+                "url": "/images/musicsurf/library_hifi.png",
+                "subText": "Music Library Pages."
+            },
+            {
+                "url": "/images/musicsurf/nowplaying_hifi.png",
+                "subText": "Now Playing Pages."
+            },
+            {
+                "url": "/images/musicsurf/explore_hifi.png",
+                "subText": "Explore More Pages"
+            }
+        ],
+        "problem": "At the time this app was made, there was no app that allowed users to find music based on their emotions and connect with other users through music. Current music platforms like Spotify or Apple Music show music in a standard database style system and give recommendations through auto generated playlists. This means that users are not able to explore music freely and often only find new music due to auto generated playlists which they don’t have control over.",
+        "solution": "MusicSurf is a new platform that uses visualization to create a more natural experience when interacting with music libraries. It visualizes important elements of songs such as mood, speed, and volume range, and organizes them spatially to facilitate browsing. Instead of playing music from playlists or albums, MusicSurf presents music in a network, with songs connected by heuristics like mood and genre, allowing users to explore music like a forest on foot. Users can provide heuristics to determine the path or manually choose their desired path."
+
+        
+
+    },
+
+    "section2": {
+        "summary": "This page contains information regarding MusicSurf, a university project for my HCI course where we designed a new concept for finding and listening to music through emotions, connected in a network graph like structure, with unique music controls and libraries for exploration.",
+        "roles": ["UI/UX Design"],
+        "techStack": ["Adobe XD", "Adobe Illustrator"],
+        "techStackIcons": [
+            "/icons/techstack/adobe-xd.svg",
+            "/icons/techstack/adobe-illustrator.svg"
+        ],
+        
+        "userStories": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "designRemarks": "The colour scheme consists of a wide range of colours in the library where the colours highlight the moods, genres and other heuristics. Apart from the colours, it's primarily a dark theme just like Spotify.",
+        "successes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "lessonsLearned": [
+            "Data collection analysis of stakeholders, end-users and competitors really helped during the design process and can be done better with more time and resources. ",
+            "Learned to utilize criticism and feedback from peers and professors to improve and make better design choices. ", 
+            "Learned to use prototyping tools for the first time and it easier to learn than I thought and Figma is better."
+    
+        ],
+        "nextSteps": "The design of MusicSurf will focus on providing users with more information in an intuitive way, fixing inconsistent functionality, re-organizing certain pages, and re-evaluating the color scheme. The team will mainly work on creating helpful documentation to help users make full use of MusicSurf's capabilities. Since the design is new, there are many elements that may not be intuitive for new users, so the documentation will need to be thorough."
+    }
+
+
+}

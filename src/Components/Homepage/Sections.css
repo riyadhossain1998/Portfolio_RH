@@ -1,0 +1,30 @@
+/* Common Attributes */
+
+.left-section, .middle-section, .right-section {
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;
+    border: 0.15rem solid #ea7570df;
+    flex-direction: column;
+    
+}
+
+/* Left Section Unique Attributes */
+
+.left-section {
+    width: 20%;
+
+}
+
+/* Middle Section Unique Attributes */
+
+.middle-section{
+    width: 40%;
+}
+
+/* Right Section Unique Attributes */
+
+.right-section {
+    width: 30%;
+}
+
+

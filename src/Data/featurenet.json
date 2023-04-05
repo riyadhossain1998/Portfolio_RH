@@ -3,7 +3,7 @@
     "post_tag": "fn",
     "poster": "Feature Network",
     "image": "./images/featurenet/react-graph.png",
-    "time_posted": "July 8 2022- July 28 2022",
+    "time_posted": "July 8 2022 - July 28 2022",
     "studied": "In Progress \u00b7 HTML, CSS, JavaScript, D3.js, Python",
     "images": [
         "./images/featurenet/react-graph.png",
@@ -24,5 +24,5 @@
         "[COMPLETED] Organized SpotiPY Back-End and connected to webpage",
         "[COMPLETED] Flask File Structure"
     ],
-    "paragraph": "This is my personal project where I wanted to create a 2D network of popular artists that collaborated with each other in the mainstream music.\n\nThis project was initially built on ;Python; where the user can visualize their playlist. Initially, I started this project after learning different libraries in Python, to list a few used in this project are ;json;, ;os;, ;pandas;, ;numpy; and the most important API for this project ;spotipy;. Together, I combined and organized all the data from the Spotify Web API and rendered a network graph with ;d3.js;, with Flask as my backend. \n\n I have made amazing progress with this progress so far, it has been a fun website building experience so far, I have learned a lot. The complete app should include a lot more unique user interaction, a fun way to listen to music. Below is a backlog of my progress and what I intend to do next. \n\n Below, I will link the GitHub Repo and once the website is up, the link. @GitHub@"
+    "paragraph": "A personal project where I wanted to visualize a 2D network of my favorite artists to see who they collaborated with. From there I built on this idea and created a website with Python, Flask and D3.js. The website is currently in development, but you can check out my progress below. "
 }

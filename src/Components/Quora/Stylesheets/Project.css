@@ -79,3 +79,18 @@
     background-color: rgb(185, 33, 49, 0.2);
     
 }
+
+.collapse-button {
+    text-decoration: underline;
+    color: #B92B27;
+    text-align: right;
+    cursor: pointer;
+}
+
+.project-github-link{
+    /* place to the right */
+    float: right;
+    
+
+
+}

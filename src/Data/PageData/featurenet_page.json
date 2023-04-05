@@ -1,0 +1,98 @@
+{
+    "section1": {
+        "displayImage": "/images/featurenet/flask-graph-p1.png",
+        "title": "Feature Network",
+        "footnote": "In Progress - January 2023",        
+        "navBarElements": ["User Flow Diagram", "Sketches", "Wireframes", "Final Design"],
+        "wireframes": [
+            {
+                "url": "/images/featurenet/prototype-feature-data.png",
+                "subText": "Wireframe 1: Artist selection page prototype using Adobe XD."
+            },
+            {
+                "url": "/images/featurenet/prototype-graph.png",
+                "subText": "Wireframe 2: Graph page low fidelity prototype using Adobe XD."
+            }
+            
+            
+        ],
+        "sketch": [
+            {
+                "url": "/images/featurenet/userflow.png",
+                "subText": "Userflow and Ideas for the app."
+            },
+            {
+                "url": "/images/featurenet/web_layout_sketch.png",
+                "subText": "Component Sketch 1: Web page layout sketch for CSS Flexbox."
+            },
+            {   
+                "url": "/images/featurenet/modal_sketch.png",
+                "subText": "Component Sketch 2: Modal for artist information and sketch of an interaction for the user."
+            }
+
+            
+        ],
+        "currentDesign": [
+            {
+                "url": "/images/featurenet/flask-graph-p1.png",
+                "subText": "Working prototype of the app, currently displays graph from JSON Data organized from Spotify Web API."
+            }
+            
+
+        ],
+
+        "userflowImage": "/images/userflow.png",
+        "githubURL": "",
+        "liveURL": "",
+        "buttonLinks": [
+            "https://www.github.com", 
+            "https://www.riyadhossain.page"
+        ],
+        "buttonIcons": [
+            "/icons/github.png",
+            "/icons/preview.png"
+        ],
+        "buttonText": [
+            "Github",
+            "Preview"
+        ],
+
+        
+
+        "problem": "In the world of western RnB, HipHop and Pop, there are many artists out there working with many other artists. However, it is difficult to find out who has collaborated with who and how many songs they have together without explicitly searching for it.",
+        "solution": "Using data visualization, I came to a solution that allows the user to see the connections between artists and explore their music in a unique fashion. With the rise in VR/AR technologies, this is also has the potential to be a very unique user experience in such setting. "
+        
+        
+
+    },
+
+    "section2": {
+        "summary": "This page is a progress report for my Feature Network Web App. The app uses Spotify Web API to find playlists and visualize them in a network graph.",
+        "roles": ["Product Design", "UX Writing", "Full Stack Development"],
+        "techStack": ["HTML", "CSS", "JavaScript", "D3.js", "Flask", "Python", "Spotify Web API", "Adobe XD", "VS Code"],
+        "techStackIcons": [
+            "/icons/techstack/html-5.svg", 
+            "/icons/techstack/css-3.svg", 
+            "/icons/techstack/javascript.svg",
+            "/icons/techstack/d3.svg",
+            "/icons/techstack/flask.svg",
+            "/icons/techstack/python.svg",
+            "/icons/techstack/spotify-icon.svg",
+            "/icons/techstack/adobe-xd.svg",
+            "/icons/techstack/visual-studio-code.svg"
+        ],
+        "userStories": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "designRemarks": "Using Spotify colour scheme and font, will be using curved interfaces for most of the app.",
+        "successes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
+        "lessonsLearned": [
+            "Not to be afraid of learning complex tools no matter how less resources there are for it if you really need to use it.", 
+            "Not to be concerned about whether the app or the concept is useful or not (i just wanted to visualize my playlist this way)", 
+            "Flask is actually pretty powerful and python is super easy to learn and play around with. )",
+            "Much more cleaner and neater sketches plays a role in the design process as it's used to communicate your idea initially."
+    
+        ],
+        "nextSteps": "To create even more unique experiences with this app, for example a drag interaction for artist nodes to add all their songs to queue or shuffle."
+    }
+
+
+}

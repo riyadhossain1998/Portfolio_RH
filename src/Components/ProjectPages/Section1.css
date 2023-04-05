@@ -1,0 +1,290 @@
+/* --------------- CSS Grid - Project Header --------------*/
+
+
+.section1 {
+    width: 66.66666666666666%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2rem 2rem 2rem 2rem;
+
+}
+
+
+.project-header {
+    display: flex;
+    padding: 2rem 2rem 2rem 2rem;
+    height: 100%;
+    flex-direction: row;
+      
+}
+
+.project-header-left {
+    
+}
+.project-header-right {
+    width: 100%;
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.project-img {
+    width: 16rem;
+    height: 16rem;
+
+  }
+  
+  .project-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .project-title {
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #282829;
+    font-weight: bold;
+    display: flex;
+  }
+  
+  .project-footnote {
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 0.8rem;
+    color: #282829;
+    display: flex;
+
+  }
+  
+  .project-button-list {
+    display: flex;
+    margin: 0 2 0 2;
+    gap: 0.5rem;
+    width: 75%;
+    padding-top: 1rem;
+
+  }
+  .project-button {
+    color: white;
+    font-family: Helvetica, sans-serif, serif;
+    font-size: 0.9375rem;
+    line-height: 1.4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 2rem 2rem 2rem;
+
+    
+
+    
+  }
+  .project-button-anchorwrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    cursor: pointer;
+    background-color: #ea7570df;
+    border-radius: 0.5rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease-in-out;
+
+  }
+  .project-button-anchorwrap:hover {
+    background-color: #b92b27;
+    text-decoration: none;
+  }
+  .project-button-text {
+    pointer-events: none;
+    color: #fff;
+
+  }
+
+
+/* --------------- CSS Grid - Project Nav Bar --------------*/
+
+.project-navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between 1rem;
+    
+      
+}
+
+.project-navbar-item {
+    border: 0.15rem solid #ea7570df;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 100%;
+    transition: background-color 0.1s ease-in-out;
+
+    }
+
+.project-navbar-item:hover {
+    border: 0.15rem solid #b92b27;
+    background-color: #b92b27;
+    color: #fff;
+    border-radius: 0.25rem;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+    width: 100%;
+    }
+
+
+/* --------------- CSS Grid - Project Description Header --------------*/
+.project-description-header {
+    display: flex;
+    border: 0.15rem solid orange;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.project-description-header-item {
+    width: 20%;
+
+    }
+
+
+/* --------------- CSS Grid - Project Description --------------*/
+.project-description-content {
+    padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    line-height: 2;
+}
+
+.project-description-title {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    font-weight: bold;
+    
+    }
+
+.project-description-text {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    line-height: 2;
+    }
+
+.project-description-list {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    list-style-type: none;
+    font-weight: bold;
+    padding: 2rem 2rem 2rem 2rem;
+    line-height: 2;
+    }
+
+.project-bullet-point {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    list-style-type: disc;
+
+    }
+
+.project-image-wrapper {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem 2rem 2rem 2rem;
+    }
+
+.project-description-image {
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+    text-align: left;
+    border-radius: 0.5rem;
+    padding-top: 0.5rem;
+    }
+
+.project-image-note {
+    width: 100%;
+    font-family: Helvetica, sans-serif, serif;
+    text-align: left;
+    padding-left: 2rem;
+    padding-top: 0.35rem;
+    font-style: italic;
+    }
+
+.project-icon-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 2rem 2rem 2rem 2rem;
+    height: 100%;
+    width: 100%;
+    }
+
+.project-icon-text-wrapper {
+    border-radius: 2rem;
+    background-color: rgb(255, 255, 255, 0.2);
+    border: #282829 dotted 0.15rem;
+    padding: 1.5rem 3rem 1.5rem 3rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    
+}
+    
+    
+
+.line {
+    border: 0.15rem solid #282829;
+    width: 100%;
+    height: 0.15rem;
+    margin: 0.5rem 0 0.5rem 0;
+    }
+
+
+
+/* Vertical Nav */
+
+.vertical-nav {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    }
+
+.vertical-nav-element {
+    display: flex;
+    flex-direction: row;
+    padding: 0rem 0rem 0rem 0rem;
+    border: 0.15rem solid #ea7570df;
+    border-radius: 0.25rem;
+    width: 100%;
+    
+    
+    
+
+}
+
+.vertical-nav-icon {
+    height: 2rem;
+    width: 2rem;
+    object-fit: contain;
+    background-color: #282829;
+    border-radius: 0.75rem;
+    border: #b92b27 solid 0.15rem;
+    display: flex;
+    align-self: center;
+}
+
+.vertical-nav-text {
+    display: flex;
+    align-items: center;
+    padding: 0rem 0.5rem 0rem 0.5rem;
+}
