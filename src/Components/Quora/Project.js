@@ -46,10 +46,7 @@ function Project(props) {
       history.push(`${json_data.post_tag}`)
       // rerender the page
     
-      //if back button on browser is pressed,go back to 'history.push('/')
-      if(history.location.pathname === '/') {
-        history.push('/')
-      }
+
     }
 
    
