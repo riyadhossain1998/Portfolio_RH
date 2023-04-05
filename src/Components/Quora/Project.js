@@ -45,7 +45,6 @@ function Project(props) {
     function routingTo() {
       history.push(`${json_data.post_tag}`)
       // rerender the page
-      window.location.reload()
     
     }
 
