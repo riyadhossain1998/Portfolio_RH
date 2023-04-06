@@ -1,33 +1,22 @@
 {
     "section1": {
-        "displayImage": "/images/intro/portrait1.jpeg",
-        "title": "React Portfolio",
-        "footnote": "Launched January 11, 2023",        
-        "navBarElements": ["User Flow Diagram", "Sketches", "Wireframes", "Final Design"],
+        "displayImage": "/images/stonekeep/stonekeep.png",
+        "title": "Stone Keep",
+        "footnote": "January 2022 - April 2022",        
+        "navBarElements": ["Sketches", "Wireframes", "Final Design"],
         "wireframes": [
-            {
-                "url": "/images/portfolio/wireframe.png",
-                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
-            }
-            
+
         ],
         "sketch": [
-            {
-                "url": "/images/portfolio/pf_sketch1.png",
-                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
-            },
-            {
-                "url": "/images/portfolio/pf_sketch2.png",
-                "subText": "Component Sketch 1: Technologies used."
-            }
+        
             
         ],
         "userflowImage": "/images/userflow.png",
         "githubURL": "",
         "liveURL": "",
         "buttonLinks": [
-            "https://www.github.com", 
-            "https://www.riyadhossain.page"
+            "https://github.com/AceJan/StoneKeep", 
+            "https://drive.google.com/file/d/1oJM5D06Favf1FrUuA7sTBLT1urMC3VF4/view?usp=sharing"
         ],
         "buttonIcons": [
             "/icons/github.png",
@@ -35,48 +24,55 @@
         ],
         "buttonText": [
             "Github",
-            "Preview"
+            "Game Design Document"
         ],
 
         "currentDesign": [
             {
-                "url": "/images/portfolio/version1.png",
-                "subText": "Working prototype of the app, currently displays graph from JSON Data organized from Spotify Web API."
+                "url": "/images/stonekeep/sk-start.png",
+                "subText": "Start Screen"
+            },
+            {
+                "url": "/images/stonekeep/sk-game1.png",
+                "subText": "Level 1"
+            },
+            {
+                "url": "/images/stonekeep/sk-mage.png",
+                "subText": "Mage Character"
+            },
+            {
+                "url":"/images/stonekeep/sk-boss.png",
+                "subText": "Boss Level"
             }
         ],
 
-        "problem": "In this sea of competition, how does one stand out? How can I show my personality, skills and experiences in one place in a way my audience would see ambition, passion and potential. Taking into account these accolades, a risk was imminent. ",
-        "solution": "I decided to create a different experience, yet simple, readable, user-friendly and perhaps a sense of familiarity. A Social Media-Styled Portfolio is what I chose to build as the design inspired by Quora. "
+        "problem": "Our task was to create a video game using game design concepts we learned in class using any platform. ",
+        "solution": "We picked the Unity game engine and created a 2D platformer game called Stone Keep with multiple usable characters with unique movement and fighting mechanics. "
 
         
 
     },
 
     "section2": {
-        "summary": "This page is a progress report for my React Portfolio Project. The design is based on Quora's homepage and profile page, modified in the style of a portfolio.",
-        "roles": ["UI/UX Design", "UX Writing", "Front-End Development"],
-        "techStack": ["HTML", "CSS", "JavaScript", "React", "React Router", "Node.js", "React Hooks", "Python", "VS Code"],
+        "summary": "This page is a summary of my Game Design project for Game Design course at the University of Calgary, it's a 2D platformer called Stone Keep. To learn more, please refer to the Game Design Document.",
+        "roles": ["Character/AI Design", "Unity/C# Developer"],
+        "techStack": ["Unity", "C#", "Adobe Illustrator" ,"Visual Studio Code"],
         "techStackIcons": [
-            "/icons/techstack/html-5.svg", 
-            "/icons/techstack/css-3.svg", 
-            "/icons/techstack/javascript.svg",
-            "/icons/techstack/react.svg",
-            "/icons/techstack/react-router.svg",
-            "/icons/techstack/nodejs.svg",
-            "/icons/techstack/hookstate.svg",
-            "/icons/techstack/python.svg",
+            "/icons/techstack/unity.svg", 
+            "/icons/techstack/c-sharp.svg", 
+            "/icons/techstack/adobe-illustrator.svg",
             "/icons/techstack/visual-studio-code.svg"
         ],
         "userStories": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
-        "designRemarks": "I have used the Quora color scheme of red, grey and white. ",
+        "designRemarks": "We have used visually appealing colours and characters catering to the story and setting of the game.",
         "successes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "lessonsLearned": [
-            "Gained a better understanding of React and React Hooks. (not quite there yet)", 
-            "CSS and Flexbox practised well and is now part of my intuitive design process. (we're halfway there!!)", 
-            "Very organized and tidy use and creation of React omponents. (with room for improvement)"
+            "Creating complex AI and animations can be challenging when you've never used Unity or C# before while being in a group of two developers.", 
+            "Level design can be difficult to balance with the game mechanics.", 
+            "More time allocation for this project would've been more beneficial but not necessary because we were marked on our concept, game design documentation, assets and complexity as well and not solely on implementation."
     
         ],
-        "nextSteps": "This project carried forward will consist of portfolios in different interface styles of common web applications, including responsiveness to smaller devices. ."
+        "nextSteps": "Creating more levels, integrating character mechanics more into these levels would be lovely but the setback we'd like to fix is the lack of player animations and addition of aerial enemy AIs. "
     }
 
 

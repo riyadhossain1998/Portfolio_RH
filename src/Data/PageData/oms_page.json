@@ -1,24 +1,40 @@
 {
     "section1": {
-        "displayImage": "/images/intro/portrait1.jpeg",
-        "title": "React Portfolio",
-        "footnote": "Launched January 11, 2023",        
+        "displayImage": "/images/oms/distribution.png",
+        "title": "Order Management System (Omni)",
+        "footnote": "In Progress - December 2022",        
         "navBarElements": ["User Flow Diagram", "Sketches", "Wireframes", "Final Design"],
         "wireframes": [
             {
-                "url": "/images/portfolio/wireframe.png",
-                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
+                "url": "/images/oms/wireframe1.png",
+                "subText": ""
+            },
+            {
+                "url": "/images/oms/wireframe2.png",
+                "subText": ""
             }
             
         ],
         "sketch": [
             {
-                "url": "/images/portfolio/pf_sketch1.png",
-                "subText": "Wireframe 1: Initial layout of section 1 of project information page."
+                "url": "/images/oms/planning_sketch5.png",
+                "subText": "Sketch 1: User Flow Diagram (most used features)"
             },
             {
-                "url": "/images/portfolio/pf_sketch2.png",
-                "subText": "Component Sketch 1: Technologies used."
+                "url": "/images/oms/prep_shipments_sketch1.png",
+                "subText": "Sketch2: Prepare Shipments Sketch (previous vs new) with notes"
+            },
+            {
+                "url": "/images/oms/prep_shipments_sketch4.png",
+                "subText": "Sketch2: Prepare Shipments Page 2 Analysis"
+            },
+            {
+                "url": "/images/oms/pack_shipments_sketch3.png",
+                "subText": "Sketch2: Pack Shipments Sketch (previous vs new) with notes"
+            },
+            {
+                "url": "/images/oms/pack_shipments_sketch2.png",
+                "subText": "Sketch2: Pack Shipments Page 1 Analysis"
             }
             
         ],
@@ -26,56 +42,54 @@
         "githubURL": "",
         "liveURL": "",
         "buttonLinks": [
-            "https://www.github.com", 
-            "https://www.riyadhossain.page"
+            "", 
+            "https://www.figma.com/proto/JqpwI8pwnJbz3soo7jZLRB/Omni-V3?node-id=7-30&starting-point-node-id=7%3A30"
         ],
         "buttonIcons": [
-            "/icons/github.png",
+            "https://docs.google.com/document/d/1stKvlE_hEpRjjQwAVDRXpUSw4QFUAgt26g5kU6eHwU0/edit?usp=sharing",
             "/icons/preview.png"
         ],
         "buttonText": [
-            "Github",
+            "Documentation",
             "Preview"
         ],
 
         "currentDesign": [
             {
-                "url": "/images/portfolio/version1.png",
-                "subText": "Working prototype of the app, currently displays graph from JSON Data organized from Spotify Web API."
+                "url": "/images/oms/home.png",
+                "subText": "Homepage"
+
+            },
+            {
+                "url": "/images/oms/ps12.png",
+                "subText": "Prepare Shipments Pages"
             }
+
         ],
-        "problem": "In this sea of competition, how does one stand out? How can I show my personality, skills and experiences in one place in a way my audience would see ambition, passion and potential. Taking into account these accolades, a risk was imminent. ",
-        "solution": "I decided to create a different experience, yet simple, readable, user-friendly and perhaps a sense of familiarity. A Social Media-Styled Portfolio is what I chose to build as the design inspired by Quora. "
+        "problem": "While working retail, many of my coworkers and I have been using a system that is not user-friendly, faces bugs and is not very intuitive at times. Working there as a Fulfilment Associate for the most time, I was able to identify several problems regarding shelf locations, order fulfilment workflow and the overall user experience.",
+        "solution": "With this design, I chose to tackle the most common problems of not being able to find certain items, displaying more information regarding the orders to ensure quality service and efficiency for my fellow associates."
 
         
 
     },
 
     "section2": {
-        "summary": "This page is a progress report for my React Portfolio Project. The design is based on Quora's homepage and profile page, modified in the style of a portfolio.",
-        "roles": ["UI/UX Design", "UX Writing", "Front-End Development"],
-        "techStack": ["HTML", "CSS", "JavaScript", "React", "React Router", "Node.js", "React Hooks", "Python", "VS Code"],
+        "summary": "This page consists of my progress of the Order Management System that I am building a prototype for. It is solely based on the system I use at my retail job BuyBuyBaby to use to fulfill orders for customers.",
+        "roles": ["UI/UX Design", "UX Writing", "UX Research"],
+        "techStack": ["Figma"],
         "techStackIcons": [
-            "/icons/techstack/html-5.svg", 
-            "/icons/techstack/css-3.svg", 
-            "/icons/techstack/javascript.svg",
-            "/icons/techstack/react.svg",
-            "/icons/techstack/react-router.svg",
-            "/icons/techstack/nodejs.svg",
-            "/icons/techstack/hookstate.svg",
-            "/icons/techstack/python.svg",
-            "/icons/techstack/visual-studio-code.svg"
+            "/icons/techstack/figma.svg"
         ],
         "userStories": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
-        "designRemarks": "I have used the Quora color scheme of red, grey and white. ",
+        "designRemarks": "I have used BuyBuyBaby colors as opposed to the dark color scheme used in our Omni Application. ",
         "successes": ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"],
         "lessonsLearned": [
-            "Gained a better understanding of React and React Hooks. (not quite there yet)", 
-            "CSS and Flexbox practised well and is now part of my intuitive design process. (we're halfway there!!)", 
-            "Very organized and tidy use and creation of React omponents. (with room for improvement)"
+            "Figma is so much better than Adobe XD and I would want to use it again.", 
+            "Hunting for icons is fun but also being able to use appropiate icons for the context is very important.", 
+            "Understanding that in retail, employees shouldn't be learning new technologies at all times due to priorities so I have to make sure that the new design is always easy to learn and adapt to."
     
         ],
-        "nextSteps": "This project carried forward will consist of portfolios in different interface styles of common web applications, including responsiveness to smaller devices. ."
+        "nextSteps": "In progress prototype will require more time and effort to fully complete, but I am taking a break from this for now to prioritize other projects. (BuyBuyBaby is closing everywhere and I am losing my job and eventually the motivation behind building this but I do intend on going back to it once I have completed my other projects.)"
     }
 
 
