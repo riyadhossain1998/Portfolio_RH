@@ -1,4 +1,4 @@
-My Portfolio
+<h2>My Portfolio<h2>
 
 Built in ReactJS, slowly transitioning from BootStrap to Flexbox and CSS. 
 <br>Use of React-Router-Dom to navigate through different pages and React Hooks for scrollToView. 
