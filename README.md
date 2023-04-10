@@ -1,6 +1,8 @@
 My Portfolio
 
-Built in ReactJS, slowly transitioning from BootStrap to Flexbox and CSS. Use of React-Router-Dom to navigate through different pages and React Hooks for scrollToView. 
+Built in ReactJS, slowly transitioning from BootStrap to Flexbox and CSS. 
+<br>Use of React-Router-Dom to navigate through different pages and React Hooks for scrollToView. 
+<br>Python script to update JSON data to be rendered to the website (for easy edits all at once)
 
 <br>Credits: 
 <a href="https://www.flaticon.com/free-icons/download" title="download icons">Download icons created by Bharat Icons - Flaticon</a><br>
