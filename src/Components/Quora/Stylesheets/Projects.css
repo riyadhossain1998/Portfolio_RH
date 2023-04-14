@@ -15,7 +15,8 @@
 
 .btn-custom:hover {
   background-color: #00000008;
-  animation: btn-hover 0.5s ease-out;
+  animation: btn-hover 0.2s ease-out;
+  animation-fill-mode: forwards;
   border-radius: 0.25rem;
 }
 
@@ -25,15 +26,8 @@
 }
 
 @keyframes btn-hover {
-  0% {
-      transform: scale(1);
-  }
-  50% {
-      transform: scale(1.05);
-  }
-  100% {
-      transform: scale(1);
-  }
+  from { transform: scale(1); }
+  to { transform: scale(1.1); }
 } 
 
 

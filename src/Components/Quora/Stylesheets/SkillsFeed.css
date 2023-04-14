@@ -29,3 +29,8 @@ p {
     line-height: 1.4;
     color: #282829;
 }
+
+.course a {
+    color: #B92B27;
+    font-weight: bold;
+}

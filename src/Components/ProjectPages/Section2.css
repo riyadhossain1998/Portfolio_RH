@@ -56,3 +56,24 @@
     align-self: center;
     list-style: none;
 }
+
+.project-description-title {
+    text-align: center;
+}
+
+.project-description-text {
+    text-align: center;
+    padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+
+.project-icon-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.project-icon {
+    padding-bottom: 0.5rem;
+}

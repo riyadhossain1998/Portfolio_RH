@@ -50,3 +50,32 @@ nav {
     visibility: visible;
   }
   
+
+.nav-link {
+  width: 10rem;
+}
+.quora-th {
+  padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+  background-color: #B92B27;
+  color: #fff;
+  border: 0.15rem solid #B92B27;
+  text-align: center;
+}
+.spotify-th {
+  cursor: pointer;
+  background-color: #1DB954;
+  color: #fff;
+  border: 0.15rem solid #1DB954;
+  text-align: center;
+}
+.spotify-th:hover {
+  background-color: #fff;
+  color: #1DB954;
+  border: 0.15rem solid #000;
+}
+
+.quora-th:hover {
+  background-color: #fff;
+  color: #B92B27;
+  border: 0.15rem solid #B92B27;
+}
