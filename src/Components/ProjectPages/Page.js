@@ -14,7 +14,7 @@ function Page(props) {
     const data = props.data
     return (
         <>
-            <NavBar />
+            <NavBar location={"page"}/>
             <PageContents data={data}/>
         </>
         

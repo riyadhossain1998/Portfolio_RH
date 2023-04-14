@@ -1,38 +1,37 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Circular-Black';
+  src: url('../public/fonts/CircularStd-Black.otf');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Circular-Light';
+  src: url('../public/fonts/CircularStd-Light.otf');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Circular-Bold';
+  src: url('../public/fonts/CircularStd-Bold.otf');
+  font-weight: normal;
+  font-style: normal;
 }
-
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Circular-Medium';
+  src: url('../public/fonts/CircularStd-Medium.otf');
+  font-weight: normal;
+  font-style: normal;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+@font-face {
+  font-family: 'Circular-Book';
+  src: url('../public/fonts/CircularStd-Book.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Circular-LightItalic';
+  src: url('../public/fonts/CircularStd-Light Italic.otf');
+  font-weight: normal;
+  font-style: normal;
 }
