@@ -21,11 +21,7 @@ function Projects() {
                 onClick={handleClick}>
                     <img src="./images/intro/portrait1.jpeg" alt="home" /><b>Portfolio Home</b>
             </button>            
-            <button type="button" data-id="6" 
-                className={`btn btn-custom ${activeButton === "UI/UX | Order Management System" ? "active" : ""}`} 
-                onClick={handleClick}>
-                    <img src="./images/oms/ps12.png" alt="oms" /><b>UI/UX</b> | Order Management System
-            </button>
+            
             <button type="button" data-id="2" 
                 className={`btn btn-custom ${activeButton === "UI/UX | MusicSurf" ? "active" : ""}`} 
                 onClick={handleClick}>
@@ -39,6 +35,16 @@ function Projects() {
     );
 
 }
+
+
+/*
+<button type="button" data-id="6" 
+                className={`btn btn-custom ${activeButton === "UI/UX | Order Management System" ? "active" : ""}`} 
+                onClick={handleClick}>
+                    <img src="./images/oms/ps12.png" alt="oms" /><b>UI/UX</b> | Order Management System
+            </button>
+*/
+
 
 
 
