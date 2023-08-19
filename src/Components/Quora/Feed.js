@@ -12,7 +12,6 @@ function Feed() {
     return (
         <div className="feed">
             <Project data={intro} />
-            <Project data={oms} /> 
             <Project data={musicsurf} />
             
             <Project data={featurenet} />
