@@ -16,7 +16,6 @@ function NavBar() {
                     <div className="navigation-bar-item">Projects</div>
                     <div className="navigation-bar-item">About</div>
                     <div className="navigation-bar-item">Contact</div>
-                    <div className="navigation-bar-item">Resume</div>
                     <div className="navigation-bar-item">GitHub</div>
                     <div className="navigation-bar-item">LinkedIn</div>
                 </div>
