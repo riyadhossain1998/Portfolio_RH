@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Quora />
+        <Routes />
       </div>
     </Router>
     

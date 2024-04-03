@@ -262,9 +262,9 @@ function NavBar() {
 
     const navBarSocialIcons = (
         <ul className="flex space-x-2">
-            <li><a href="/" className="text-white text-lg hover:text-gray-300"><img className="github object-cover h-8 w-8" src="/icons/github.png"/></a></li>
+            <li className="hover-css" data-content="My GitHub"><a href="https://github.com/riyadhossain1998" className="text-white text-lg"><img className="github object-cover h-8 w-8" src="/icons/github.png"/></a></li>
 
-            <li><a href="/" className="text-white text-lg hover:text-gray-300"><img className="linkedin object-cover h-8 w-8" src="/icons/linkedin.png"/></a></li>
+            <li className="hover-css" data-content="My LinkedIn"><a href="https://linkedin.com/in/riyad-hossain-30773914b" className="text-white text-lg"><img className="linkedin object-cover h-8 w-8" src="/icons/linkedin.png"/></a></li>
 
         </ul>
 
