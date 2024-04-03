@@ -2,7 +2,7 @@
     "post_id": 1,
     "post_tag": "intro",
     "poster": "Riyad Hossain",
-    "image": "/images/intro/portrait1.jpeg",
+    "image": "/images/intro/IMG_0173.jpg",
     "time_posted": "Jan 11, 2023",
     "studied": "Digital Arts & Computer Science",
     "images": [],
@@ -12,5 +12,6 @@
         "Implementation of Next.js and server-side rendering",
         "Skills displayed in a different format (e.g network graphs, maps or other D3.js visualization charts"
     ],
-    "paragraph": "Welcome and thank you for taking your time to visit my portfolio! My name is Riyad and I am a ;developer; & ;designer; who thrives for innovation and usability. Everything I have been learning from university, I have been applying to my profession and the person I want to be, which is to give back to the country where I grew to adulthood. \n\nBelow this post are all my ;projects; you can ;scroll through; or ;use the shortcuts; to learn more about my work. Click below to learn more about the progress and planning of this portfolio.\n\n You may also click on the ;Spotify Theme; button to change the colors of the webpage, my next goal would be to transition this project to ;Vite; and ;TypeScript;, add a database as well to be able to edit contents of the portfolio without having to re-deploy the website for every edit and make the homepage my blog for daily updates.\n\n Thank you for visiting my portfolio, feel free to contact me in riyad.hossain114@gmail.com "
+
+    "paragraph": "Thank you for visiting my website. My name is ;Riyad;, I am a freelancer specializing in ;Web Design;, ;UX Research; and ;Graphic Design;. I also have 3+ years of experience in ;sales and customer service; from working in retail establishments during my school years.\n\n"
 }

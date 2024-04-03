@@ -13,6 +13,14 @@
   
 }
 
+.image-sizing {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
 .btn-custom:hover {
   background-color: #00000008;
   animation: btn-hover 0.2s ease-out;

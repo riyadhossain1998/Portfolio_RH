@@ -19,18 +19,18 @@ function Projects() {
             <button type="button" data-id="1" 
                 className={`btn btn-custom ${activeButton === "Home" ? "active" : ""}`} 
                 onClick={handleClick}>
-                    <img src="./images/intro/portrait1.jpeg" alt="home" /><b>Portfolio Home</b>
+                    <img class="image-sizing" src="./images/intro/IMG_0173.jpg" alt="home" /><b>Portfolio Home</b>
             </button>            
             
             <button type="button" data-id="2" 
                 className={`btn btn-custom ${activeButton === "UI/UX | MusicSurf" ? "active" : ""}`} 
                 onClick={handleClick}>
-                    <img src="./images/musicsurf/Logo.png" alt="musicsurf"  /><b>UI/UX</b> | MusicSurf
+                    <img class="image-sizing" src="./images/musicsurf/Logo.png" alt="musicsurf"  /><b>UI/UX</b> | MusicSurf
             </button>
-            <button type="button" data-id="7" className={`btn btn-custom ${activeButton === "Python & Webpage | Feature Network" ? "active" : ""}`} onClick={handleClick}><img src="./images/featurenet/react-graph.png" alt="featurenet"/><b>Flask Website</b> | Feature Network</button>
-            <button type="button" data-id="3" className={`btn btn-custom ${activeButton === "Website | Salad Bowl Generator" ? "active" : ""}`} onClick={handleClick}><img src="./images/saladtime/saladtime.png" alt="sbg"/><b>Node Website</b> | Salad Bowl Generator</button>
-            <button type="button" data-id="4" className={`btn btn-custom ${activeButton === "Unity & C# | Stone Keep" ? "active" : ""}`} onClick={handleClick}><img src="./images/stonekeep/stonekeep.png" alt="stonekeep"/><b>Unity & C#</b> | Stone Keep</button>
-            <button type="button" data-id="5" className={`btn btn-custom ${activeButton === "Artworks" ? "active" : ""}`} onClick={handleClick}><img src="./images/art/plakatsil.png" alt="artworks"/><b>Artworks</b></button>
+            <button type="button" data-id="7" className={`btn btn-custom ${activeButton === "Python & Webpage | Feature Network" ? "active" : ""}`} onClick={handleClick}><img class="image-sizing" src="./images/featurenet/react-graph.png" alt="featurenet"/><b>Flask Website</b> | Feature Network</button>
+            <button type="button" data-id="3" className={`btn btn-custom ${activeButton === "Website | Salad Bowl Generator" ? "active" : ""}`} onClick={handleClick}><img class="image-sizing" src="./images/saladtime/saladtime.png" alt="sbg"/><b>Node Website</b> | Salad Bowl Generator</button>
+            <button type="button" data-id="4" className={`btn btn-custom ${activeButton === "Unity & C# | Stone Keep" ? "active" : ""}`} onClick={handleClick}><img class="image-sizing" src="./images/stonekeep/stonekeep.png" alt="stonekeep"/><b>Unity & C#</b> | Stone Keep</button>
+            <button type="button" data-id="5" className={`btn btn-custom ${activeButton === "Artworks" ? "active" : ""}`} onClick={handleClick}><img class="image-sizing" src="./images/art/plakatsil.png" alt="artworks"/><b>Artworks</b></button>
         </div>
     );
 

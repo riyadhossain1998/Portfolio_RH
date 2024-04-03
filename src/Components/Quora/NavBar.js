@@ -1,4 +1,5 @@
 import './Stylesheets/NavBar.css'
+/*
 //import Page from '../ProjectPages/Page'
 //import { useState } from 'react'
 function NavBar(props) {
@@ -252,6 +253,77 @@ function NavBar(props) {
             </div>
         
     );
+}
+
+export default NavBar;
+
+*/
+import './Stylesheets/NavBar.css'
+function NavBar() {
+
+    const navBarSocialIcons = (
+        <ul className="flex space-x-2">
+            <li><a href="/" className="text-white text-lg hover:text-gray-300"><img className="github object-cover h-8 w-8" src="/icons/github.png"/></a></li>
+
+            <li><a href="/" className="text-white text-lg hover:text-gray-300"><img className="linkedin object-cover h-8 w-8" src="/icons/linkedin.png"/></a></li>
+
+        </ul>
+
+    )
+
+    const navBarElements = (
+        <div className="navElements">
+            <ul className="flex space-x-4 items-center">
+                <li></li>
+                <li>{navBarSocialIcons}</li>
+                <li>
+                    <a href="./resumes/UX-Resume-RH.pdf" download="RH_Resume_UX" className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-400 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    <img className="object-cover h-4 w-4 mr-2" src="/icons/download.png"/> Customer Service Resume
+                    </a>
+                </li>
+                <li>
+                    <a href="./resumes/Resume.pdf" download="RH_Resume_CS" className="inline-flex items-center justify-center px-4 py-2.5 text-base font-medium text-center text-white bg-green-600 rounded-lg hover:bg-green-400 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+                    <img className="object-cover h-4 w-4 mr-2" src="/icons/download.png"/> UX Resume
+                    </a>
+                </li>
+            </ul>
+        </div>
+    )
+
+    
+
+    const navBarLogo = (
+        <div className="logo">
+            <a href="/" className="text-red-800">Riyad Hossain</a>
+        </div>
+
+    )
+
+    const navBarContent = (
+        <></>
+
+    )
+
+    const navBar = (
+        <>
+            <nav className="bg-white-700 p-4">
+                <div className="max-w-6xl mx-auto">
+                    <div className="flex justify-between items-center">
+                        {navBarLogo}
+                        {navBarElements}
+                    </div>
+                </div>
+            </nav>
+        </>
+
+    )
+
+
+    return ( 
+        <>
+            {navBar}
+        </>
+     );
 }
 
 export default NavBar;
