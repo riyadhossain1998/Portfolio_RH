@@ -1,4 +1,3 @@
-import './Stylesheets/NavBar.css'
 /*
 //import Page from '../ProjectPages/Page'
 //import { useState } from 'react'
@@ -293,8 +292,8 @@ function NavBar() {
     
 
     const navBarLogo = (
-        <div className="logo">
-            <a href="/" className="text-red-800">Riyad Hossain</a>
+        <div className="logo navbar-brand">
+            <a href="/" className="custom-font text-red-600 text-3xl hover:no-underline hover:text-red-400">Riyad Hossain</a>
         </div>
 
     )
